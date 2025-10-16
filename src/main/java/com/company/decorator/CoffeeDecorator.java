@@ -2,7 +2,7 @@ package com.company.decorator;
 
 import com.company.IComponent.Coffee;
 
-public class CoffeeDecorator implements Coffee {
+public abstract class CoffeeDecorator implements Coffee {
     protected Coffee decoratedCoffee;
 
     public CoffeeDecorator(Coffee coffee) {
